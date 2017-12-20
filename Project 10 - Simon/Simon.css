@@ -1,0 +1,268 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/exclusive_paper.png");
+}
+
+.main-container {
+  width:500px;
+  height:500px;
+  margin:0 auto;
+}
+
+.console-conatiner {
+  width:100%;
+  height:100%;
+  margin-top:20px;
+  background-color: #424242;
+  border-radius: 50%;
+}
+
+.gamebox {
+  width:50%;
+  float:left;
+  height:250px;
+}
+
+.button-container {
+  position:relative;
+}
+
+.click-box {
+  width:224px;
+  height:224px;
+  border:1px solid #000000;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  outline:none;
+  cursor: pointer;
+  opacity:0.4;
+}
+
+/*.click-box:active {
+  box-shadow: 0 2px #383838;
+  transform: translateY(4px);
+  outline:none;
+  border:1px solid #000000;
+}
+*/
+
+#button_1 {
+  position:absolute;
+  right:8px;
+  bottom:8px;
+  background-color: rgb(0,209,14);
+  border-top-left-radius: 230px;
+}
+
+#button_2 {
+  position:absolute;
+  left:8px;
+  bottom:8px;
+  background-color: rgb(227,20,20);
+  border-top-right-radius: 230px;
+}
+
+#button_3 {
+  position:absolute;
+  right:8px;
+  top:8px;
+  background-color: rgb(259,239,15);
+  border-bottom-left-radius: 230px;
+}
+
+
+#button_4 {
+  position:absolute;
+  left:8px;
+  top:8px;
+  background-color: rgb(31,69,240);
+  border-bottom-right-radius: 230px;
+}
+
+.button-clicked {
+  opacity: 0.8 !important;
+  box-shadow: 0 2px #383838 !important;
+  transform: translateY(4px) !important;
+  outline:none !important;
+  border:1px solid #000000 !important;
+}
+
+.configuration-container {
+  position:relative;
+  top:26%;
+  left: 26%;
+  width:44%;
+  height:44%;
+  border:10px solid #424242;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  font-weight:bold;
+
+}
+
+.logo-container {
+  position:absolute;
+  width:100%;
+  margin-top:40px;
+  font-size:30px;
+  font-weight:bold;
+}
+
+.config-counter {
+  position:absolute;
+  width:33%;
+  margin-top:96px;
+  margin-left:14px;
+  font-size:9px;
+}
+
+.config-strict {
+  position:absolute;
+  width:33%;
+  margin-top:106px;
+  margin-left:138px;
+  font-size:9px;
+}
+
+.config-start {
+  position:absolute;
+  width:33%;
+  margin-top:104px;
+  margin-left:76px;
+  font-size:9px;
+}
+
+#counter {
+  background-color: rgba(5, 5, 5, 0.9);
+  border:2px solid #b70707;
+  border-radius:5px;
+  color: #b70707;
+  height: 40px;
+  width:50px;
+  line-height:40px;
+  font-size:20px;
+  margin-bottom:5px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+  font-weight:bold;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#counter-desc {
+  text-align:left;
+  padding-left:11px;
+}
+
+#start-desc {
+  padding-top:8px;
+}
+
+#strict-desc {
+  padding-top:11px;
+}
+
+#start-button {
+  height:30px;
+  width:30px;
+  cursor:pointer;
+  z-index:10;
+}
+
+#start-button:active {
+  box-shadow: 0;
+  transform: translateY(4px);
+  outline:none;
+  border:0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 25px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #960a00;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2bba00;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2bba00;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+.toggle-text {
+  font-weight:bold;
+  color:#ffffff;
+  font-size:7px;
+}
+
+#end-game-overlay {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 34%;
+    width: 600px;
+    height: 100px;
+    line-height:40px;
+    background-color: #0D47A1;
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+    z-index: 10000;
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    text-align:center;
+    font-weight:bold;
+    font-size:26px;
+    padding-top:50px;
+    border-radius:3px;
+    box-shadow: 20px 20px 20px 12px rgba(0,0,0,0.5);
+}
+
+#restart-container{
+  text-align:right;
+  padding-right:20px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.reset-icon {
+  width:26px;
+  vertical-align:middle;
+  padding-right:10px;
+}

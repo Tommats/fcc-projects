@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Wiki.js"></script>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./Wiki.css">
+    <title>Wikipedia Viewer</title>
+  </head>
+  <body>
+    <div class="container-fluid pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8 text-center pb-1"><img src="https://cdn.shopify.com/tools/logo-maker/show/VU5KSDNyZm9Zbk5yamowZFJZVjR0Zz09LS1CQlpBaldsb1Zlc29iTjVXZ2VVWFpBPT0=--14cccdd41500321bd931a567af187000bd369cc4_500x.svg.png" class="logo"></div>
+          <div class="col-sm-2"></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 text-center text-primary pb-3"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img src="https://image.flaticon.com/icons/svg/594/594761.svg" class="img-responsive randomicon mr-2">Random Page</a></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 text-center"><form>
+      <input type="text" id="searchbox" placeholder="Type for searching">
+    </form></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10 pt-4">
+            <div class="row" id="results">
+            </div>
+          </div>
+          <div class="col-sm-1"></div>
+        </div>
+        <!-- Return to Top Start -->
+    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+    <!-- Return to Top End -->
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(79, 195, 247, 0.6);
+}
+.appname {
+  background-color:rgba(71, 71, 71, 0.4);
+  color:#ffffff;
+}
+
+#weathericon {
+  width:100%;
+  max-width:50px;
+}

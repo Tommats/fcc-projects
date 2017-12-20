@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./TicTacToe.js"></script>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./TicTacToe.css">
+  </head>
+  <body>
+    <div class="logo">
+      <img src="https://image.flaticon.com/icons/png/512/57/57180.png" class="logo-img">Tic Tac Toe
+    </div>
+    <div id="overlay">
+      Choose X or O
+      <div><button value="X" class="set-shape">X</button><button value="O" class="set-shape">O</button></div>
+    </div>
+    <div id="end-game-overlay">
+      <div id="winner"></div>
+      <div id="restart-container"><span id="restart"><img src="http://www.iconsplace.com/download/white-restart-256.ico" class="reset-icon">New Game</span></div>
+    </div>
+    <div class="container">
+      <div id="playbox">
+        <div class="row">
+          <div class="box" id="00"></div>
+          <div class="box" id="01"></div>
+          <div class="box" id="02"></div>
+        </div>
+        <div class="row">
+          <div class="box" id="10"></div>
+          <div class="box" id="11"></div>
+          <div class="box" id="12"></div>
+        </div>
+        <div class="row">
+          <div class="box" id="20"></div>
+          <div class="box" id="21"></div>
+          <div class="box" id="22"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

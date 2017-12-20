@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="./Quote.js"></script>
+    <title>Quote Machine</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./Quote.css">
+  </head>
+  <body>
+    <div class="container fluid">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6 mainbox">
+            <div class="row">
+              <div class="col-12 text-left text-primary pl-4 display-1 tquotecontainer">“</div>
+              <div class="col-12 text-center content"><h5>Click "Get Quote" for triggering new quoute.</h5></div>
+              <div class="col-12 text-right text-primary pr-4 display-1 bquotecontainer">”</div>
+            <div class="col-12 text-right text-muted pr-4 author pb-4"></div>
+            </div>
+          </div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6 text-center pt-4"><button id = "getMessage" class = "btn btn-primary">
+            Get Quote
+            </button></div>
+          <div class="col-lg-3"></div>
+           <div class="col-lg-3"></div>
+          <div class="col-lg-6 text-left pt-4">
+            <div class="row">
+              <div class="col-md-2 col-3 text-left">
+              <a href="#" target="_blank" id="tweet" data-size="large"><img src="https://image.flaticon.com/icons/svg/491/491547.svg" class="img-responsive socialicon" alt="Tweet"></a>
+              </div>
+              <div class="col-md-2 col-3 text-left">
+              <a href="#" id="mail"><img src="https://image.flaticon.com/icons/svg/218/218539.svg" class="img-responsive socialicon" alt="Share via Email"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

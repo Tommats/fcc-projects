@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Pomodoro.js"></script>
+    <meta charset="utf-8">
+    <title>Pomodoro Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Pomodoro.css">
+  </head>
+  <body>
+    <div class="container">
+      <div><img src="https://cdn.shopify.com/tools/logo-maker/show/dzM4dy9CbUM1VW1ra2lZcmw2a2dYUT09LS0xWGk4cHB1R1NSa1Y4aHdhRTdpcHlnPT0=--fc12743ef79154e61d9cab6ade22e16dc1efa168_500x.svg.png" class="logo"></div>
+      <div class="settings-container">
+        <div class="settings">Break Time<br><button class="set-button" id="addbreak">+</button><span class="setting-numbers" id="break-time">1</span><button  class="set-button" id="reducebreak">-</button></div>
+        <div class="settings">Session Time<br><button class="set-button" id="addsession">+</button><span class="setting-numbers" id="session-time">25</span><button  class="set-button" id="reducesession">-</button></div>
+      </div>
+      <div class="buttons">
+        <img src="http://www.iconsplace.com/download/white-play-512.png" class="icon" id="play">
+        <img src="http://www.iconsplace.com/download/white-pause-512.png" class="icon" id="pause">
+        <img src="https://www.racechip.com/skin/frontend/racechip/default/images/icons_big/update_white.png" class="icon" id="reset">
+      </div>
+      <div id="timer"><br><span id="timer-flag">&nbsp;</span><br><span id="timer-numbers">25</span></div>
+    </div>
+  </body>
+</html>

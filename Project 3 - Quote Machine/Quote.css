@@ -1,0 +1,30 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mainbox {
+  box-shadow: 5px 5px 2px #888888;
+  border-radius:5px;
+  border: 1px #424242 solid;
+}
+
+.tquotecontainer {
+  margin-bottom:-50px;
+}
+
+.bquotecontainer {
+  margin-bottom:-50px;
+  margin-top:-10px;
+}
+
+.socialicon {
+  max-width: 50px;
+   filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.socialicon:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  transition-duration: 0.5s;
+}

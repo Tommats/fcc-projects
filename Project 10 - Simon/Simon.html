@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./Simon.js"></script>
+    <meta charset="utf-8">
+    <title>Simon</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./Simon.css">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="console-conatiner">
+        <div class="button-container gamebox">&nbsp;<div class="click-box" id="button_1"></div></div>
+        <div class="button-container gamebox">&nbsp;<div class="click-box" id="button_2"></div></div>
+        <div class="button-container gamebox">&nbsp;<div class="click-box" id="button_3"></div></div>
+        <div class="button-container gamebox">&nbsp;<div class="click-box" id="button_4"></div></div>
+        <div class="configuration-container">
+          <div class="logo-container">Simon</div>
+          <div class="config-counter"><div id="counter">--</div><div id="counter-desc">Counter</div></div>
+          <div class="config-start"><div id="start-button-container"><img src="http://files.softicons.com/download/internet-icons/free-buttons-ii-icons-by-exhumed/png/256/free2you2.png" id="start-button"></div><div id="start-desc">Start/Reset</div></div>
+          <div class="config-strict">
+            <label class="switch">
+              <input type="checkbox" id="strict">
+              <span class="slider"></span>
+            </label>
+            <div id="strict-desc">Strict</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="end-game-overlay">
+      <div id="winner">You Win!</div>
+      <div id="restart-container"><span id="restart"><img src="http://www.iconsplace.com/download/white-restart-256.ico" class="reset-icon">New Game</span></div>
+    </div>
+  </body>
+</html>

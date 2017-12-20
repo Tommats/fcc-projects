@@ -1,0 +1,109 @@
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 123, 255);
+    background: rgba(0, 123, 255, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 123, 255, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+a:link {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color:inherit;
+}
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/spiration-light.png");
+    background-repeat: repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#searchbox {
+  width: 96px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('http://www.myiconfinder.com/uploads/iconsets/32-32-d1329495d530574e7ab3407ade5c3df7.png');
+  background-position: 4px 8px;
+  background-repeat: no-repeat;
+  padding: 12px 12px 12px 40px;
+}
+ #searchbox:focus {
+  width: 70%;
+  -webkit-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+  outline: none;
+}
+
+#searchbox:hover {
+  cursor:pointer
+}
+
+.resultbox {
+ background-color:rgba(252, 253, 255, 0.6);
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+  padding: 15px 10px 10px 15px;
+  margin-top:20px;
+}
+
+.resultbox:hover {
+ background-color:rgba(150, 150, 150, 0.4);
+}
+
+.logo {
+  width:100%;
+  max-width:250px;
+}
+
+.randomicon {
+  max-width: 20px;
+}

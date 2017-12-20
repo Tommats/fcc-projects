@@ -1,0 +1,125 @@
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+#logoname {
+  font-family: 'Mr Dafoe', cursive;
+}
+.superlightgrey {
+  background-color:#F2F2F2;
+}
+
+.lightgrey {
+  background-color:#CCCCCC;
+  color:#000000;
+}
+
+.darkgrey {
+  background-color:#4F4F4F;
+  color:#ffffff;
+}
+
+.porfolioimg {
+    width: 100%;
+    max-width:540px;
+    filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+}
+
+.porfolioimg:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  transition-duration: 2s;
+}
+
+.desc {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    padding-left: 10px;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+}
+
+.fix {
+    width: 100%;
+    padding: 0px;
+    position: relative;
+}
+
+.container {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #4F4F4F;
+  width: 2px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+  border-radius:3px;
+}
+
+.socialicon {
+  max-width: 40px;
+   filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.socialicon:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  transition-duration: 0.5s;
+}

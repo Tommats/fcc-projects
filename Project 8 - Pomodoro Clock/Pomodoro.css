@@ -1,0 +1,78 @@
+body {
+  background-color:#424242;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  width:300px;
+}
+.container {
+  width:960px;
+  margin:0 auto;
+  text-align:center;
+  color: #ffffff;
+}
+
+#timer {
+  border: 1px solid #ffffff;
+  height:240px;
+  line-height:44px;
+  font-size:46px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width:240px;
+  margin:0 auto;
+  margin-top:30px;
+}
+
+.buttons {
+  margin: 0 auto;
+  margin-top:30px;
+  width:600px;
+  text-align:center;
+}
+
+.icon {
+  width:50px;
+  margin-right:20px;
+  margin-left:20px;
+  cursor: pointer;
+}
+
+.settings-container {
+  width:100%;
+  margin-top:20px;
+}
+
+.settings {
+  width:200px;
+  display: inline-block;
+}
+
+.set-button {
+  border:none;
+  color:#ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size:30px;
+  font-weight:bold;
+  background-color:#424242;
+  outline:none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.setting-numbers {
+  font-size:36px;
+
+}
+
+#timer-flag {
+  font-size:24px;
+  color:#00E676;
+  font-family: 'Russo One', sans-serif;
+}
+
+.red {
+  color:#FF5252 !important;
+}
